@@ -208,7 +208,7 @@ $(function(){
             this.toggle(false);
           }
         });
-
+/*
         $(document).on('keydown','.geocontrast',function(e){
           switch(e.keyCode){
             case 9:
@@ -226,7 +226,7 @@ $(function(){
             break;
           }
         });
-
+*/
         $(document).on('click','.pin_geocontrast',function(){
           var input = $(this).prev()[0];
           if (input.assigned() && input.options.gmaps_through_pin){
